@@ -1,0 +1,19 @@
+Column_name,Column_type,Data_type,Description
+LoanID,Identifier,string,A unique identifier for each loan.
+Age,Feature,integer,The age of the borrower.
+Income,Feature,integer,The annual income of the borrower.
+LoanAmount,Feature,integer,The amount of money being borrowed.
+CreditScore,Feature,integer,"The credit score of the borrower, indicating their creditworthiness."
+MonthsEmployed,Feature,integer,The number of months the borrower has been employed.
+NumCreditLines,Feature,integer,The number of credit lines the borrower has open.
+InterestRate,Feature,float,The interest rate for the loan.
+LoanTerm,Feature,integer,The term length of the loan in months.
+DTIRatio,Feature,float,"The Debt-to-Income ratio, indicating the borrower's debt compared to their income."
+Education,Feature,string,"The highest level of education attained by the borrower (PhD, Master's, Bachelor's, High School)."
+EmploymentType,Feature,string,"The type of employment status of the borrower (Full-time, Part-time, Self-employed, Unemployed)."
+MaritalStatus,Feature,string,"The marital status of the borrower (Single, Married, Divorced)."
+HasMortgage,Feature,string,Whether the borrower has a mortgage (Yes or No).
+HasDependents,Feature,string,Whether the borrower has dependents (Yes or No).
+LoanPurpose,Feature,string,"The purpose of the loan (Home, Auto, Education, Business, Other)."
+HasCoSigner,Feature,string,Whether the loan has a co-signer (Yes or No).
+Default,Target,integer,The binary target variable indicating whether the loan defaulted (1) or not (0).
